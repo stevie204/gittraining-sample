@@ -13,7 +13,11 @@ import org.eclipse.example.calc.BinaryOperation;
 import org.eclipse.example.calc.Operation;
 import org.eclipse.example.calc.Operations;
 import org.eclipse.example.calc.UnaryOperation;
+<<<<<<< Upstream, based on derpowerbranch
 import org.eclipse.example.calc.internal.operations.Power;
+=======
+import org.eclipse.example.calc.internal.operations.Divide;
+>>>>>>> ab9e1f2 Neues Mega-Divide Feature
 import org.eclipse.example.calc.internal.operations.Equals;
 import org.eclipse.example.calc.internal.operations.Minus;
 import org.eclipse.example.calc.internal.operations.Plus;
@@ -42,6 +46,7 @@ public class Calculator {
 		new Plus();
 		new Square();
 		new Power();
+		new Divide();
 	}
 
 	private void calculate(String cmdName) {
